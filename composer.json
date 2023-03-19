@@ -14,5 +14,14 @@
             "email": "naskostan4ev@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.0",
+        "psr/http-message": "^1.0",
+        "vlucas/phpdotenv": "v5.5.0",
+        "nikic/fast-route": "^1.3"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
 }
