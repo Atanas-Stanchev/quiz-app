@@ -1,6 +1,6 @@
 <?php
 
-namespace QuizApp\Model;
+namespace app\Model;
 
 use Exception;
 

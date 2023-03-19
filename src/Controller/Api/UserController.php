@@ -1,8 +1,8 @@
 <?php
 
-namespace QuizApp\Controller\Api;
+namespace app\Controller\Api;
 
-use QuizApp\Model\UserModel;
+use app\Model\UserModel;
 
 class UserController extends BaseController
 {

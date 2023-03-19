@@ -1,8 +1,8 @@
 <?php
 
-namespace QuizApp\Controller\Api;
+namespace app\Controller\Api;
 
-use QuizApp\Model\Database;
+use app\Model\Database;
 
 class UserAnswersController
 {

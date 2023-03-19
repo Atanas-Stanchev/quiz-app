@@ -1,6 +1,6 @@
 <?php
 
-namespace QuizApp\Controller\Api;
+namespace app\Controller\Api;
 
 use JetBrains\PhpStorm\NoReturn;
 

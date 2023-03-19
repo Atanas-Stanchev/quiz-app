@@ -3,7 +3,7 @@
         'name' => 'nasko/quiz-app',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '2523d29ab5309c6f86836d44918b8f8699015a42',
+        'reference' => '07a45995e3d31bcb67d94f580b9125445e03db94',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'nasko/quiz-app' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '2523d29ab5309c6f86836d44918b8f8699015a42',
+            'reference' => '07a45995e3d31bcb67d94f580b9125445e03db94',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

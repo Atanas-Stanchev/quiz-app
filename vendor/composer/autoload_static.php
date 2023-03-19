@@ -14,15 +14,15 @@ class ComposerStaticInit0db5b73ceb79c16dbf8b933aad063a58
     );
 
     public static $prefixLengthsPsr4 = array (
+        'a' => 
+        array (
+            'app\\' => 4,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
-        ),
-        'Q' => 
-        array (
-            'QuizApp\\' => 8,
         ),
         'P' => 
         array (
@@ -44,6 +44,10 @@ class ComposerStaticInit0db5b73ceb79c16dbf8b933aad063a58
     );
 
     public static $prefixDirsPsr4 = array (
+        'app\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
@@ -55,10 +59,6 @@ class ComposerStaticInit0db5b73ceb79c16dbf8b933aad063a58
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
-        ),
-        'QuizApp\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Psr\\Http\\Message\\' => 
         array (

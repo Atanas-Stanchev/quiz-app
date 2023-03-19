@@ -1,19 +1,24 @@
 <?php
-
-use QuizApp\Controller\Api\UserController;
+/**
+ * Debug only
+ * */
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
 
 require_once 'vendor/autoload.php';
+require_once __DIR__.'/config/config.php';
 
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json; charset=UTF-8');
 
-
+var_dump($_REQUEST);
 $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
-    $r->addRoute('GET', '/users', 'get_all_users_handler');
+    $r->addRoute('GET', '/users', ['UserController', 'list']);
     // {id} must be a number (\d+)
-    $r->addRoute('GET', '/user/{id:\d+}', 'get_user_handler');
+    $r->addRoute('GET', '/user/{id:\d+}', ['UserController', 'list']);
     // The /{title} suffix is optional
-    $r->addRoute('GET', '/articles/{id:\d+}[/{title}]', 'get_article_handler');
+    $r->addRoute('GET', '/quiz/{id:\d+}[/{title}]', ['QuizController', 'getQuizQuestions']);
 });
 
 // Fetch method and URI from somewhere

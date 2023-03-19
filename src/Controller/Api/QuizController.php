@@ -1,6 +1,6 @@
 <?php
 
-namespace QuizApp\Controller\Api;
+namespace app\Controller\Api;
 
 use PDO;
 use QuizApp\Model\Database;
